@@ -16,6 +16,8 @@
 		31A82F9A19ED696500340B83 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A82F9119ED692C00340B83 /* Nimble.framework */; };
 		31A82FA019ED6DCF00340B83 /* FISTriviaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */; };
 		31A82FA419ED9CCF00340B83 /* FISLocationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */; };
+		31A82FBE19EDC9D700340B83 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBC19EDC9D700340B83 /* FISLocation.swift */; };
+		31A82FBF19EDC9D700340B83 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBD19EDC9D700340B83 /* FISTrivia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,8 @@
 		31A82F8919ED692C00340B83 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISTriviaSpec.swift; sourceTree = "<group>"; };
 		31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISLocationSpec.swift; sourceTree = "<group>"; };
+		31A82FBC19EDC9D700340B83 /* FISLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISLocation.swift; sourceTree = SOURCE_ROOT; };
+		31A82FBD19EDC9D700340B83 /* FISTrivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISTrivia.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				3150F6BA19ED6643007B8692 /* AppDelegate.swift */,
+				31A82FBC19EDC9D700340B83 /* FISLocation.swift */,
+				31A82FBD19EDC9D700340B83 /* FISTrivia.swift */,
 				3150F6BC19ED6643007B8692 /* ViewController.swift */,
 				3150F6BE19ED6643007B8692 /* Main.storyboard */,
 				3150F6C119ED6643007B8692 /* Images.xcassets */,
@@ -370,8 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A82FBE19EDC9D700340B83 /* FISLocation.swift in Sources */,
 				3150F6BD19ED6643007B8692 /* ViewController.swift in Sources */,
 				3150F6BB19ED6643007B8692 /* AppDelegate.swift in Sources */,
+				31A82FBF19EDC9D700340B83 /* FISTrivia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
