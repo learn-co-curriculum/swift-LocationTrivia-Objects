@@ -12,13 +12,9 @@
 		3150F6C019ED6643007B8692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6BE19ED6643007B8692 /* Main.storyboard */; };
 		3150F6C219ED6643007B8692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C119ED6643007B8692 /* Images.xcassets */; };
 		3150F6C519ED6643007B8692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C319ED6643007B8692 /* LaunchScreen.xib */; };
-		3150F6DC19ED6650007B8692 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DA19ED6650007B8692 /* FISLocation.swift */; };
 		31A82F9919ED695900340B83 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A82F8219ED690F00340B83 /* Quick.framework */; };
 		31A82F9A19ED696500340B83 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A82F9119ED692C00340B83 /* Nimble.framework */; };
-		31A82F9D19ED6C5F00340B83 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DB19ED6650007B8692 /* FISTrivia.swift */; };
 		31A82FA019ED6DCF00340B83 /* FISTriviaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */; };
-		31A82FA119ED7A6500340B83 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DB19ED6650007B8692 /* FISTrivia.swift */; };
-		31A82FA219ED7A7E00340B83 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DA19ED6650007B8692 /* FISLocation.swift */; };
 		31A82FA419ED9CCF00340B83 /* FISLocationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +94,6 @@
 		3150F6C419ED6643007B8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3150F6CA19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-LocationTrivia-ObjectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3150F6CF19ED6643007B8692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3150F6DA19ED6650007B8692 /* FISLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FISLocation.swift; path = ../FISLocation.swift; sourceTree = "<group>"; };
-		3150F6DB19ED6650007B8692 /* FISTrivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FISTrivia.swift; path = ../FISTrivia.swift; sourceTree = "<group>"; };
 		31A82F7919ED690F00340B83 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Vendor/Quick/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
 		31A82F8919ED692C00340B83 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISTriviaSpec.swift; sourceTree = "<group>"; };
@@ -147,8 +141,6 @@
 		3150F6B719ED6643007B8692 /* swift-LocationTrivia-Objects */ = {
 			isa = PBXGroup;
 			children = (
-				3150F6DA19ED6650007B8692 /* FISLocation.swift */,
-				3150F6DB19ED6650007B8692 /* FISTrivia.swift */,
 				3150F6BA19ED6643007B8692 /* AppDelegate.swift */,
 				3150F6BC19ED6643007B8692 /* ViewController.swift */,
 				3150F6BE19ED6643007B8692 /* Main.storyboard */,
@@ -378,10 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3150F6DC19ED6650007B8692 /* FISLocation.swift in Sources */,
 				3150F6BD19ED6643007B8692 /* ViewController.swift in Sources */,
 				3150F6BB19ED6643007B8692 /* AppDelegate.swift in Sources */,
-				31A82F9D19ED6C5F00340B83 /* FISTrivia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,10 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A82FA219ED7A7E00340B83 /* FISLocation.swift in Sources */,
 				31A82FA019ED6DCF00340B83 /* FISTriviaSpec.swift in Sources */,
 				31A82FA419ED9CCF00340B83 /* FISLocationSpec.swift in Sources */,
-				31A82FA119ED7A6500340B83 /* FISTrivia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
