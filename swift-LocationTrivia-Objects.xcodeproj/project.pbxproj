@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3150F6BB19ED6643007B8692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6BA19ED6643007B8692 /* AppDelegate.swift */; };
+		3150F6BD19ED6643007B8692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6BC19ED6643007B8692 /* ViewController.swift */; };
+		3150F6C019ED6643007B8692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6BE19ED6643007B8692 /* Main.storyboard */; };
+		3150F6C219ED6643007B8692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C119ED6643007B8692 /* Images.xcassets */; };
+		3150F6C519ED6643007B8692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C319ED6643007B8692 /* LaunchScreen.xib */; };
+		3150F6DC19ED6650007B8692 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DA19ED6650007B8692 /* FISLocation.swift */; };
+		31A82F9919ED695900340B83 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A82F8219ED690F00340B83 /* Quick.framework */; };
+		31A82F9A19ED696500340B83 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A82F9119ED692C00340B83 /* Nimble.framework */; };
+		31A82F9D19ED6C5F00340B83 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DB19ED6650007B8692 /* FISTrivia.swift */; };
+		31A82FA019ED6DCF00340B83 /* FISTriviaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */; };
+		31A82FA119ED7A6500340B83 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DB19ED6650007B8692 /* FISTrivia.swift */; };
+		31A82FA219ED7A7E00340B83 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150F6DA19ED6650007B8692 /* FISLocation.swift */; };
+		31A82FA419ED9CCF00340B83 /* FISLocationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3150F6CB19ED6643007B8692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3150F6AD19ED6643007B8692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3150F6B419ED6643007B8692;
+			remoteInfo = "swift-LocationTrivia-Objects";
+		};
+		31A82F8119ED690F00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAEB6B8E1943873100289F44;
+			remoteInfo = Quick;
+		};
+		31A82F8319ED690F00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAEB6B991943873100289F44;
+			remoteInfo = QuickTests;
+		};
+		31A82F8519ED690F00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A5D117C19473F2100F6D13D;
+			remoteInfo = "Quick-iOS";
+		};
+		31A82F8719ED690F00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A5D118619473F2100F6D13D;
+			remoteInfo = "Quick-iOSTests";
+		};
+		31A82F9019ED692C00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74291940169200FFFC47;
+			remoteInfo = "Nimble-iOS";
+		};
+		31A82F9219ED692C00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F1A74341940169200FFFC47;
+			remoteInfo = "Nimble-iOSTests";
+		};
+		31A82F9419ED692C00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EAD195C0D6300ED456B;
+			remoteInfo = "Nimble-OSX";
+		};
+		31A82F9619ED692C00340B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F925EB7195C0D6300ED456B;
+			remoteInfo = "Nimble-OSXTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3150F6B519ED6643007B8692 /* swift-LocationTrivia-Objects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-LocationTrivia-Objects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3150F6B919ED6643007B8692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3150F6BA19ED6643007B8692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3150F6BC19ED6643007B8692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3150F6BF19ED6643007B8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3150F6C119ED6643007B8692 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3150F6C419ED6643007B8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3150F6CA19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-LocationTrivia-ObjectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3150F6CF19ED6643007B8692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3150F6DA19ED6650007B8692 /* FISLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FISLocation.swift; path = ../FISLocation.swift; sourceTree = "<group>"; };
+		3150F6DB19ED6650007B8692 /* FISTrivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FISTrivia.swift; path = ../FISTrivia.swift; sourceTree = "<group>"; };
+		31A82F7919ED690F00340B83 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Vendor/Quick/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
+		31A82F8919ED692C00340B83 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
+		31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISTriviaSpec.swift; sourceTree = "<group>"; };
+		31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISLocationSpec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3150F6B219ED6643007B8692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3150F6C719ED6643007B8692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A82F9A19ED696500340B83 /* Nimble.framework in Frameworks */,
+				31A82F9919ED695900340B83 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3150F6AC19ED6643007B8692 = {
+			isa = PBXGroup;
+			children = (
+				3150F6B719ED6643007B8692 /* swift-LocationTrivia-Objects */,
+				3150F6CD19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests */,
+				3150F6B619ED6643007B8692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3150F6B619ED6643007B8692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3150F6B519ED6643007B8692 /* swift-LocationTrivia-Objects.app */,
+				3150F6CA19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3150F6B719ED6643007B8692 /* swift-LocationTrivia-Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3150F6DA19ED6650007B8692 /* FISLocation.swift */,
+				3150F6DB19ED6650007B8692 /* FISTrivia.swift */,
+				3150F6BA19ED6643007B8692 /* AppDelegate.swift */,
+				3150F6BC19ED6643007B8692 /* ViewController.swift */,
+				3150F6BE19ED6643007B8692 /* Main.storyboard */,
+				3150F6C119ED6643007B8692 /* Images.xcassets */,
+				3150F6C319ED6643007B8692 /* LaunchScreen.xib */,
+				3150F6B819ED6643007B8692 /* Supporting Files */,
+			);
+			path = "swift-LocationTrivia-Objects";
+			sourceTree = "<group>";
+		};
+		3150F6B819ED6643007B8692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3150F6B919ED6643007B8692 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3150F6CD19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */,
+				31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */,
+				31A82F8919ED692C00340B83 /* Nimble.xcodeproj */,
+				31A82F7919ED690F00340B83 /* Quick.xcodeproj */,
+				3150F6CE19ED6643007B8692 /* Supporting Files */,
+			);
+			path = "swift-LocationTrivia-ObjectsTests";
+			sourceTree = "<group>";
+		};
+		3150F6CE19ED6643007B8692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3150F6CF19ED6643007B8692 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31A82F7A19ED690F00340B83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31A82F8219ED690F00340B83 /* Quick.framework */,
+				31A82F8419ED690F00340B83 /* QuickTests.xctest */,
+				31A82F8619ED690F00340B83 /* Quick.framework */,
+				31A82F8819ED690F00340B83 /* Quick-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31A82F8A19ED692C00340B83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31A82F9119ED692C00340B83 /* Nimble.framework */,
+				31A82F9319ED692C00340B83 /* NimbleTests.xctest */,
+				31A82F9519ED692C00340B83 /* Nimble.framework */,
+				31A82F9719ED692C00340B83 /* Nimble-OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3150F6B419ED6643007B8692 /* swift-LocationTrivia-Objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3150F6D419ED6643007B8692 /* Build configuration list for PBXNativeTarget "swift-LocationTrivia-Objects" */;
+			buildPhases = (
+				3150F6B119ED6643007B8692 /* Sources */,
+				3150F6B219ED6643007B8692 /* Frameworks */,
+				3150F6B319ED6643007B8692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-LocationTrivia-Objects";
+			productName = "swift-LocationTrivia-Objects";
+			productReference = 3150F6B519ED6643007B8692 /* swift-LocationTrivia-Objects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3150F6C919ED6643007B8692 /* swift-LocationTrivia-ObjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3150F6D719ED6643007B8692 /* Build configuration list for PBXNativeTarget "swift-LocationTrivia-ObjectsTests" */;
+			buildPhases = (
+				3150F6C619ED6643007B8692 /* Sources */,
+				3150F6C719ED6643007B8692 /* Frameworks */,
+				3150F6C819ED6643007B8692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3150F6CC19ED6643007B8692 /* PBXTargetDependency */,
+			);
+			name = "swift-LocationTrivia-ObjectsTests";
+			productName = "swift-LocationTrivia-ObjectsTests";
+			productReference = 3150F6CA19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3150F6AD19ED6643007B8692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Zachary Drossman";
+				TargetAttributes = {
+					3150F6B419ED6643007B8692 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3150F6C919ED6643007B8692 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3150F6B419ED6643007B8692;
+					};
+				};
+			};
+			buildConfigurationList = 3150F6B019ED6643007B8692 /* Build configuration list for PBXProject "swift-LocationTrivia-Objects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3150F6AC19ED6643007B8692;
+			productRefGroup = 3150F6B619ED6643007B8692 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 31A82F8A19ED692C00340B83 /* Products */;
+					ProjectRef = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
+				},
+				{
+					ProductGroup = 31A82F7A19ED690F00340B83 /* Products */;
+					ProjectRef = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3150F6B419ED6643007B8692 /* swift-LocationTrivia-Objects */,
+				3150F6C919ED6643007B8692 /* swift-LocationTrivia-ObjectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		31A82F8219ED690F00340B83 /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = 31A82F8119ED690F00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31A82F8419ED690F00340B83 /* QuickTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = QuickTests.xctest;
+			remoteRef = 31A82F8319ED690F00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31A82F8619ED690F00340B83 /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = 31A82F8519ED690F00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31A82F8819ED690F00340B83 /* Quick-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Quick-iOSTests.xctest";
+			remoteRef = 31A82F8719ED690F00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31A82F9119ED692C00340B83 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 31A82F9019ED692C00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31A82F9319ED692C00340B83 /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = 31A82F9219ED692C00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31A82F9519ED692C00340B83 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 31A82F9419ED692C00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		31A82F9719ED692C00340B83 /* Nimble-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Nimble-OSXTests.xctest";
+			remoteRef = 31A82F9619ED692C00340B83 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3150F6B319ED6643007B8692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3150F6C019ED6643007B8692 /* Main.storyboard in Resources */,
+				3150F6C519ED6643007B8692 /* LaunchScreen.xib in Resources */,
+				3150F6C219ED6643007B8692 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3150F6C819ED6643007B8692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3150F6B119ED6643007B8692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3150F6DC19ED6650007B8692 /* FISLocation.swift in Sources */,
+				3150F6BD19ED6643007B8692 /* ViewController.swift in Sources */,
+				3150F6BB19ED6643007B8692 /* AppDelegate.swift in Sources */,
+				31A82F9D19ED6C5F00340B83 /* FISTrivia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3150F6C619ED6643007B8692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A82FA219ED7A7E00340B83 /* FISLocation.swift in Sources */,
+				31A82FA019ED6DCF00340B83 /* FISTriviaSpec.swift in Sources */,
+				31A82FA419ED9CCF00340B83 /* FISLocationSpec.swift in Sources */,
+				31A82FA119ED7A6500340B83 /* FISTrivia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3150F6CC19ED6643007B8692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3150F6B419ED6643007B8692 /* swift-LocationTrivia-Objects */;
+			targetProxy = 3150F6CB19ED6643007B8692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3150F6BE19ED6643007B8692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3150F6BF19ED6643007B8692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3150F6C319ED6643007B8692 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3150F6C419ED6643007B8692 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3150F6D219ED6643007B8692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3150F6D319ED6643007B8692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3150F6D519ED6643007B8692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift-LocationTrivia-Objects/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3150F6D619ED6643007B8692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift-LocationTrivia-Objects/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3150F6D819ED6643007B8692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-LocationTrivia-ObjectsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-LocationTrivia-Objects.app/swift-LocationTrivia-Objects";
+			};
+			name = Debug;
+		};
+		3150F6D919ED6643007B8692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-LocationTrivia-ObjectsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-LocationTrivia-Objects.app/swift-LocationTrivia-Objects";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3150F6B019ED6643007B8692 /* Build configuration list for PBXProject "swift-LocationTrivia-Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3150F6D219ED6643007B8692 /* Debug */,
+				3150F6D319ED6643007B8692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3150F6D419ED6643007B8692 /* Build configuration list for PBXNativeTarget "swift-LocationTrivia-Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3150F6D519ED6643007B8692 /* Debug */,
+				3150F6D619ED6643007B8692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3150F6D719ED6643007B8692 /* Build configuration list for PBXNativeTarget "swift-LocationTrivia-ObjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3150F6D819ED6643007B8692 /* Debug */,
+				3150F6D919ED6643007B8692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3150F6AD19ED6643007B8692 /* Project object */;
+}
