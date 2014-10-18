@@ -1,3 +1,8 @@
+---
+tags: oop, beginner
+languages: swift
+---
+
 #Location Trivia Objects
 
 In the last lab you dealt with `Dictionary` object representation of locations. Now lets convert these to proper classes and add in trivia items!
