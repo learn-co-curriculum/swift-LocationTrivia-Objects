@@ -92,7 +92,7 @@ class FISLocationSpec: QuickSpec {
                     
                     var tempString : String = ""
                     
-                    expect(location!.shortenedNameToLength(5)).to(beAKindOf(object_getClass(tempString)))
+                    expect(location.shortenedNameToLength(5)).to(beAKindOf(object_getClass(tempString)))
                 }
                 
                 it("should shorten location name to 5 characters") {
