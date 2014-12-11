@@ -8,15 +8,14 @@
 
 import UIKit
 
-class FISTrivia: NSObject {
-    var content : String = ""
-    var likes : Int = 0
+public class FISTrivia: NSObject {
+    var content: String = ""
+    var likes: Int = 0
     
-    init (content : String, likes : Int)
+    init (content: String, likes: Int)
     {
         self.content = content;
         self.likes = likes;
     }
     
-    override init() {}
 }

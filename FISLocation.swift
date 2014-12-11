@@ -8,13 +8,13 @@
 
 import UIKit
 
-class FISLocation: NSObject {
+public class FISLocation: NSObject {
     var name: String = ""
     var latitude: Double = 0
     var longitude: Double = 0
     var trivia: [FISTrivia] = []
 
-    init(_ name: String, latitude: Double, longitude: Double)
+    init(name: String, latitude: Double, longitude: Double)
     {
         self.latitude = latitude
         self.longitude = longitude
