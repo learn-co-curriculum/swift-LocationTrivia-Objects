@@ -16,20 +16,18 @@ class FISLocation: NSObject {
 
     override init() {}
     
-    init(_ name: String, latitude: Double, longitude: Double)
+    init(name: String, latitude: Double, longitude: Double)
     {
         self.latitude = latitude
         self.longitude = longitude
-        self.name = name;
+        self.name = name
     }
-    
-
     
     func shortenedNameToLength(length: Int) -> String
     {
         if length < 0
         {
-            return self.name;
+            return self.name
         }
         
         let substringIndex:String.Index = advance(self.name.startIndex, 5)

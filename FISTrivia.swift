@@ -17,6 +17,4 @@ class FISTrivia: NSObject {
         self.content = content;
         self.likes = likes;
     }
-    
-    override init() {}
 }
