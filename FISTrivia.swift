@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class FISTrivia: NSObject {
+class FISTrivia: NSObject {
     var content: String
     var likes: Int
     
