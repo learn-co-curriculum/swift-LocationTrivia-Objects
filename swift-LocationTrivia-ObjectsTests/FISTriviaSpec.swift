@@ -38,12 +38,26 @@ class FISTriviaSpec: QuickSpec {
                 var initTrivia: FISTrivia = FISTrivia(content: "Joe is amazing", likes: 5)
                 
                 it("Should initialize content correctly") {
-                    expect(initTrivia.content).to(equal("Joe is amazing"));
+                    expect(initTrivia.content).to(equal("Joe is amazing"))
                 }
                 
                 it("Should initialize likes correctly") {
-                    expect(initTrivia.likes).to(equal(5));
+                    expect(initTrivia.likes).to(equal(5))
                 }
+                
+            }
+            
+            describe("default convenience initializer") {
+                var initTrivia: FISTrivia = FISTrivia()
+                
+                it("Should initialize content correctly") {
+                expect(initTrivia.content).to(equal(""))
+                }
+                
+                it("should initialize likes correctly") {
+                    expect(initTrivia.likes).to(equal(0))
+                }
+                
                 
             }
             
