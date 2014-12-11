@@ -55,7 +55,27 @@ class FISLocationSpec: QuickSpec {
                 
             }
             
+            describe("default convenience initializer") {
+                
+                var initLocation = FISLocation()
+                
+                it("Should initialize content correctly") {
+                    expect(initLocation.name).to(equal(""));
+                }
+                
+                it("Should initialize latitude correctly") {
+                    expect(initLocation.latitude).to(equal(0.0));
+                }
+                
+                it("Should initialize longitude correctly") {
+                    expect(initLocation.longitude).to(equal(0.0));
+                }
+
+            }
+            
             describe("verify location") {
+                
+                
                 
                 it("should return YES for a valid location") {
                     
