@@ -37,3 +37,14 @@ Before getting started - key thing - for this lab, you do not need to know / use
  9. Add an `Array` property to `FISLocation` to hold trivia items
 
  10. Write a method called `topTrivia` that returns the trivia item with the most likes.Assume this method will always return something, even if there are no trivia items for a location. (i.e. a placeholder trivia with placeholder content and zero likes.)
+
+ ##Hints
+
+There are some global functions in swift that may be helpful to creating these classes. These are:
+
+* `advance()`
+* `countElements()`
+
+Additionally, strings work differently in Swift than they do in Objective-C. Consider doing some reading so you understand how they are constructed.
+
+
