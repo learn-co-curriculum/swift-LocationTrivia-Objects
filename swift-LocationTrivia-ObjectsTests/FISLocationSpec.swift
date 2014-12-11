@@ -74,29 +74,27 @@ class FISLocationSpec: QuickSpec {
             }
             
             describe("verify location") {
-                
-                
-                
+
                 it("should return YES for a valid location") {
                     
-                    var loc: FISLocation = FISLocation("Empire State Building", latitude: 40.7484, longitude: -73.9857)
+                    var loc: FISLocation = FISLocation(name: "Empire State Building", latitude: 40.7484, longitude: -73.9857)
                     
                     expect(loc.verifyLocation).to(beTruthy())
                 }
                 
                 it("Should return NO for invalid latitude") {
-                    var loc: FISLocation = FISLocation("Empire State Building", latitude: 140.7484, longitude: -73.9857)
+                    var loc: FISLocation = FISLocation(name: "Empire State Building", latitude: 140.7484, longitude: -73.9857)
                
                     expect(loc.verifyLocation).to(beFalsy());
                 }
                 
                 it("Should return NO for invalid longitude") {
-                    var loc: FISLocation = FISLocation("Empire State Building", latitude: 40.7484, longitude: -1173.9857)
+                    var loc: FISLocation = FISLocation(name: "Empire State Building", latitude: 40.7484, longitude: -1173.9857)
                     expect(loc.verifyLocation).to(beFalsy());
                 }
                 
                 it("Should return NO for invalid name") {
-                    var loc: FISLocation = FISLocation("", latitude: 140.7484, longitude: -73.9857)
+                    var loc: FISLocation = FISLocation(name: "", latitude: 140.7484, longitude: -73.9857)
                     expect(loc.verifyLocation).to(beFalsy());
                 }
                 
