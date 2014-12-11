@@ -14,7 +14,7 @@ class FISTriviaSpec: QuickSpec {
     override func spec() {
         
         describe("FISTrivia") {
-            var trivia : FISTrivia?
+            var trivia : FISTrivia
             
             beforeEach {
                 trivia = FISTrivia()
@@ -24,16 +24,16 @@ class FISTriviaSpec: QuickSpec {
             describe("properties") {
                 it("should have a content NSString property") {
 
-                    trivia!.content = "ASDF"
+                    trivia.content = "ASDF"
                     var tempString : String = ""
-                    expect(trivia!.content).to(beAKindOf(object_getClass(tempString)))
-                    expect(trivia!.content).to(equal("ASDF"))
+                    expect(trivia.content).to(beAKindOf(object_getClass(tempString)))
+                    expect(trivia.content).to(equal("ASDF"))
                 }
                 
                 it("should have a likes NSInteger property") {
 
-                    trivia!.likes=5;
-                    expect(trivia!.likes).to(equal(5))
+                    trivia.likes=5;
+                    expect(trivia.likes).to(equal(5))
                     
                 }
             }
@@ -42,18 +42,18 @@ class FISTriviaSpec: QuickSpec {
                 
                 it("should init content to blank string") {
                     
-                    expect(trivia!.content).to(equal(""))
+                    expect(trivia.content).to(equal(""))
                 }
                 
                 it("should init likes to 0") {
-                    expect(trivia!.likes).to(equal(0))
+                    expect(trivia.likes).to(equal(0))
                 }
                 
             }
             
             describe("initWithContent:Likes: method") {
                 
-                var initTrivia: FISTrivia!
+                var initTrivia: FISTrivia
                 
                 beforeSuite {
                     initTrivia = FISTrivia(content: "Joe is amazing", likes: 5)
