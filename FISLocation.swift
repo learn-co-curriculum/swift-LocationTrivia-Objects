@@ -14,16 +14,12 @@ class FISLocation: NSObject {
     var longitude: Double = 0
     var trivia: [FISTrivia] = []
 
-    override init() {}
-    
     init(_ name: String, latitude: Double, longitude: Double)
     {
         self.latitude = latitude
         self.longitude = longitude
         self.name = name;
     }
-    
-
     
     func shortenedNameToLength(length: Int) -> String
     {
@@ -45,10 +41,10 @@ class FISLocation: NSObject {
         
         if countElements(self.name) > 0 && validLongitude && validLatitude
         {
-            return 1;
+            return true;
         }
         
-        return 0;
+        return false;
     }
     
     func topTrivia() -> FISTrivia?
