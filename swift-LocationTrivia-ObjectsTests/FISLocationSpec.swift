@@ -74,9 +74,7 @@ class FISLocationSpec: QuickSpec {
             }
             
             describe("verify location") {
-                
-                
-                
+
                 it("should return YES for a valid location") {
                     
                     var loc: FISLocation = FISLocation(name: "Empire State Building", latitude: 40.7484, longitude: -73.9857)
