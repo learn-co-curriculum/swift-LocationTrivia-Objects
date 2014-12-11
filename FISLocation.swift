@@ -47,11 +47,12 @@ class FISLocation: NSObject {
         return false;
     }
     
-    func topTrivia() -> FISTrivia?
+    func topTrivia() -> FISTrivia
     {
         if self.trivia.count == 0
         {
-            return nil
+            var placeholderTrivia = FISTrivia(content: "This is a placeholder.", likes: 0)
+            return placeholderTrivia
         }
         
         var topTrivia : FISTrivia = self.trivia[0]
