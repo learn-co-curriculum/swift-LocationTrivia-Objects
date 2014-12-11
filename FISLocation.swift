@@ -43,10 +43,10 @@ class FISLocation: NSObject {
         
         if countElements(self.name) > 0 && validLongitude && validLatitude
         {
-            return 1;
+            return true;
         }
         
-        return 0;
+        return false;
     }
     
     func topTrivia() -> FISTrivia
