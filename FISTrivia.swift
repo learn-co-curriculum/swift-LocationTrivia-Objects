@@ -9,17 +9,13 @@
 import UIKit
 
 public class FISTrivia: NSObject {
-    var content: String = ""
-    var likes: Int = 0
+    var content: String
+    var likes: Int
     
     init (content: String, likes: Int)
     {
         self.content = content;
         self.likes = likes;
-    }
-    
-    convenience override init() {
-        self.init(content: "", likes: 0)
     }
     
 }

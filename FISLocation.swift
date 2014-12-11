@@ -31,10 +31,6 @@ class FISLocation: NSObject {
         self.name = name
     }
     
-    convenience override init() {
-        self.init(name:"", latitude:0.0, longitude: 0.0)
-    }
-    
     func shortenedNameToLength(length: Int) -> String
     {
         if length < 0
