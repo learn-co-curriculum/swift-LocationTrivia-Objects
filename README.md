@@ -9,7 +9,7 @@ An app to share the different trivia items of life around you. As users walk aro
 
 ## Instructions
 
-Before getting started - key thing - for this lab, you do not need to know / use / understand optionals. If you get messages suggesting you need to add a `?` or `!` to your code though, you do need to know that the compiler / linter does think you are trying to assign a variable to nil. For this lab, we will not allow any of our objects to ever be nil! (Either initialize a variable when declared or in the initializer.)
+Before getting started - key thing - for this lab, you do not need to know / use / understand optionals. If you get messages suggesting you need to add a `?` or `!` to your code though, you do need to know that the compiler / linter thinks you are trying to assign a variable to nil. For this lab, we will not allow any of our objects to ever be nil! (Either initialize a variable when declared or in an initializer.)
 
  1. First create a new `FISLocation` class, add in the following properties:
 
@@ -32,6 +32,7 @@ Before getting started - key thing - for this lab, you do not need to know / use
 	```
 
  8. Add an `Array` property to `FISLocation` to hold trivia items
- 9. Write a method called `topTrivia` that returns the trivia item with the most likes. Where should this method go? Assume this method will always return something, even if there are no trivia items for a location. (i.e. a placeholder trivia with placeholder content and zero likes.)
+
+ 9. Write a method called `topTrivia` that returns the trivia item with the most likes.Assume this method will always return something, even if there are no trivia items for a location. (i.e. a placeholder trivia with placeholder content and zero likes.)
 
  10. Create an initializer for `FISTrivia` that takes an argument for all of the properties and sets them appropriately
