@@ -46,21 +46,6 @@ class FISTriviaSpec: QuickSpec {
                 }
                 
             }
-            
-            describe("default convenience initializer") {
-                var initTrivia: FISTrivia = FISTrivia()
-                
-                it("Should initialize content correctly") {
-                expect(initTrivia.content).to(equal(""))
-                }
-                
-                it("should initialize likes correctly") {
-                    expect(initTrivia.likes).to(equal(0))
-                }
-                
-                
-            }
-            
         }
     }
 }
