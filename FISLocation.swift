@@ -8,24 +8,38 @@
 
 import UIKit
 
-public class FISLocation: NSObject {
-    var name: String = ""
-    var latitude: Double = 0
-    var longitude: Double = 0
+//Does this need to be a subclass of NSObject?
+
+class FISLocation: NSObject {
+    
+    //properties and local variables are declared / defined the same way in swift
+    //explicit vs. implicit declaration ("exceedingly obvious")
+    //Double vs. Float
+    //No @ symbols necessary any longer
+    //New syntax for arrays and dictionaries that makes them type-safe
+    
+    var name: String
+    var latitude: Double
+    var longitude: Double
     var trivia: [FISTrivia] = []
 
+    //our initializer
     init(name: String, latitude: Double, longitude: Double)
     {
         self.latitude = latitude
         self.longitude = longitude
-        self.name = name;
+        self.name = name
+    }
+    
+    convenience override init() {
+        self.init(name:"", latitude:0.0, longitude: 0.0)
     }
     
     func shortenedNameToLength(length: Int) -> String
     {
         if length < 0
         {
-            return self.name;
+            return self.name
         }
         
         let substringIndex:String.Index = advance(self.name.startIndex, 5)
