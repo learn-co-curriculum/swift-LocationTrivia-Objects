@@ -31,7 +31,8 @@ Before getting started - key thing - for this lab, you do not need to know / use
 	var likes : Int
 	```
 
- 8. Add an `Array` property to `FISLocation` to hold trivia items
- 9. Write a method called `topTrivia` that returns the trivia item with the most likes.Assume this method will always return something, even if there are no trivia items for a location. (i.e. a placeholder trivia with placeholder content and zero likes.)
+ 8. Create an initializer for `FISTrivia` that takes an argument for all of the properties and sets them appropriately
 
- 10. Create an initializer for `FISTrivia` that takes an argument for all of the properties and sets them appropriately
+ 9. Add an `Array` property to `FISLocation` to hold trivia items
+
+ 10. Write a method called `topTrivia` that returns the trivia item with the most likes.Assume this method will always return something, even if there are no trivia items for a location. (i.e. a placeholder trivia with placeholder content and zero likes.)
