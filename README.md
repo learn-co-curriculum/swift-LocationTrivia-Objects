@@ -21,10 +21,15 @@ Before getting started - key thing - for this lab, you do not need to know / use
  ```
 
  2. Create an initializer that takes in the three properties and assigns them correctly. 
+ 
  3. Create a `shortenLocationName` method in your `FISLocation` class.
- 4. Create a `getLocationNamesWithLocations` method that takes an Array of `FISLocation` objects and just return their names.
+ 
+ 4. Create a `getLocationNamesWithLocations` method that takes an Array of `FISLocation` objects and just return their names. This should be a class function.
+ 
  5. Create a `verifyLocation` method to be an instance method for `FISLocation` and  return `true` or `false` as to whether the `FISLocation` has all of it's properties filled out.
+ 
  6. Create a `searchForLocationName:inLocations:` method to search an Array of `FISLocation` objects.
+ 
  7. Create a new class called `FISTrivia`. This class should have the following properties:
 
     ```swift
