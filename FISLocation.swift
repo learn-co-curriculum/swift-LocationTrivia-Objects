@@ -30,11 +30,22 @@ class FISLocation: NSObject {
             return self.name
         }
         
+        //if you are confused, just use NSString methods...
         let substringIndex:String.Index = advance(self.name.startIndex, 5)
         
         return name.substringToIndex(substringIndex)
     }
     
+    class func getLocationNamesWithLocations(locations: [FISLocation]) -> [String] {
+        var locationNames : [String] = [String]()
+        
+        for location in locations {
+            locationNames.append(location.name)
+        }
+        
+        return locationNames
+    }
+
     func verifyLocation() -> Bool
     {
         
