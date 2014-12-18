@@ -25,7 +25,7 @@ Before getting started - key thing - for this lab, you do not need to know / use
  
  4. Create a `getLocationNamesWithLocations` method that takes an Array of `FISLocation` objects and just return their names. This should be a class function.
  
- 5. Create a `verifyLocation` method to be an instance method for `FISLocation` and  return `true` or `false` as to whether the `FISLocation` has all of it's properties filled out.
+ 5. Create a `verifyLocation` method to be an instance method for `FISLocation` that ensures the location name is not blank (i.e. `""`), and the location latitude and longitude are both possible (remember there are limits on the range of latitude and longitude!)
  
  6. Create a `searchForLocationName:inLocations:` method to search an Array of `FISLocation` objects.
  
