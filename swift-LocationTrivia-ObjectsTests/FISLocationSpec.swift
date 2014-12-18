@@ -11,8 +11,6 @@ class FISLocationSpec: QuickSpec {
             describe("properties") {
                 
                 it("should have a name property") {
-                    
-                        location.name = "Da Name"
                         var tempString : String = ""
             
                     expect(location.name).to(beAKindOf(object_getClass(tempString)))
