@@ -1,7 +1,4 @@
----
-tags: objects, collections
-languages: swift
----
+
 
 #Location Trivia Objects
 
