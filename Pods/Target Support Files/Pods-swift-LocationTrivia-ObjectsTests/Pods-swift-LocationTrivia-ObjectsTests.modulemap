@@ -1,0 +1,6 @@
+framework module Pods_swift_LocationTrivia_ObjectsTests {
+  umbrella header "Pods-swift-LocationTrivia-ObjectsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
