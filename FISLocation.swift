@@ -52,7 +52,7 @@ class FISLocation: NSObject {
         let validLatitude : Bool = latitude >= -90 && latitude <= 90
         let validLongitude : Bool = longitude >= -180 && longitude <= 180
         
-        if countElements(self.name) > 0 && validLongitude && validLatitude
+        if self.name.characters.count > 0 && validLongitude && validLatitude
         {
             return true;
         }
@@ -64,7 +64,7 @@ class FISLocation: NSObject {
     {
         if self.trivia.count == 0
         {
-            var placeholderTrivia = FISTrivia(content: "This is a placeholder.", likes: 0)
+            let placeholderTrivia = FISTrivia(content: "This is a placeholder.", likes: 0)
             return placeholderTrivia
         }
         

@@ -12,79 +12,23 @@
 		3150F6C019ED6643007B8692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6BE19ED6643007B8692 /* Main.storyboard */; };
 		3150F6C219ED6643007B8692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C119ED6643007B8692 /* Images.xcassets */; };
 		3150F6C519ED6643007B8692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C319ED6643007B8692 /* LaunchScreen.xib */; };
-		31A82F9919ED695900340B83 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A82F8219ED690F00340B83 /* Quick.framework */; };
-		31A82F9A19ED696500340B83 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A82F9119ED692C00340B83 /* Nimble.framework */; };
-		31A82FA019ED6DCF00340B83 /* FISTriviaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */; };
-		31A82FA419ED9CCF00340B83 /* FISLocationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */; };
-		31A82FBE19EDC9D700340B83 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBC19EDC9D700340B83 /* FISLocation.swift */; };
-		31A82FBF19EDC9D700340B83 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBD19EDC9D700340B83 /* FISTrivia.swift */; };
-		31AA4CB11A39FD5500D68021 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBC19EDC9D700340B83 /* FISLocation.swift */; };
-		31AA4CBA1A39FD6300D68021 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBD19EDC9D700340B83 /* FISTrivia.swift */; };
+		B757AA2266CF0FBE356B3DAC /* Pods_swift_LocationTrivia_ObjectsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4083C83B353B8E5814B70B /* Pods_swift_LocationTrivia_ObjectsTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B96972B740C60039CD2E536B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46712B771D483A09FFEDC307 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BD463C341B82633500C7ADD6 /* FISTriviaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */; };
+		BD463C351B82634000C7ADD6 /* FISLocationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */; };
+		BD463C411B8264A900C7ADD6 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBC19EDC9D700340B83 /* FISLocation.swift */; };
+		BD463C421B8264A900C7ADD6 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBD19EDC9D700340B83 /* FISTrivia.swift */; };
+		BD7A00B01B82600700E8C1F1 /* FISLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBC19EDC9D700340B83 /* FISLocation.swift */; };
+		BD7A00B11B82600B00E8C1F1 /* FISTrivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FBD19EDC9D700340B83 /* FISTrivia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3150F6CB19ED6643007B8692 /* PBXContainerItemProxy */ = {
+		BD463C371B82645900C7ADD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3150F6AD19ED6643007B8692 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3150F6B419ED6643007B8692;
 			remoteInfo = "swift-LocationTrivia-Objects";
-		};
-		31A82F8119ED690F00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DAEB6B8E1943873100289F44;
-			remoteInfo = Quick;
-		};
-		31A82F8319ED690F00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DAEB6B991943873100289F44;
-			remoteInfo = QuickTests;
-		};
-		31A82F8519ED690F00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5A5D117C19473F2100F6D13D;
-			remoteInfo = "Quick-iOS";
-		};
-		31A82F8719ED690F00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5A5D118619473F2100F6D13D;
-			remoteInfo = "Quick-iOSTests";
-		};
-		31A82F9019ED692C00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F1A74291940169200FFFC47;
-			remoteInfo = "Nimble-iOS";
-		};
-		31A82F9219ED692C00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F1A74341940169200FFFC47;
-			remoteInfo = "Nimble-iOSTests";
-		};
-		31A82F9419ED692C00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F925EAD195C0D6300ED456B;
-			remoteInfo = "Nimble-OSX";
-		};
-		31A82F9619ED692C00340B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F925EB7195C0D6300ED456B;
-			remoteInfo = "Nimble-OSXTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -98,12 +42,20 @@
 		3150F6C419ED6643007B8692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3150F6CA19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-LocationTrivia-ObjectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3150F6CF19ED6643007B8692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31A82F7919ED690F00340B83 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Vendor/Quick/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
-		31A82F8919ED692C00340B83 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISTriviaSpec.swift; sourceTree = "<group>"; };
 		31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISLocationSpec.swift; sourceTree = "<group>"; };
 		31A82FBC19EDC9D700340B83 /* FISLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISLocation.swift; sourceTree = SOURCE_ROOT; };
 		31A82FBD19EDC9D700340B83 /* FISTrivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISTrivia.swift; sourceTree = SOURCE_ROOT; };
+		46712B771D483A09FFEDC307 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4684AFC9BDFF65167622A6C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		71A6462D922096A104E6CCD7 /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9741E206F66AB532D4853869 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BD463C391B82647800C7ADD6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		BD463C3A1B82647800C7ADD6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		BD463C3D1B82647C00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_swift_LocationTrivia_ObjectsTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_swift_LocationTrivia_ObjectsTests.framework"; sourceTree = "<group>"; };
+		BD463C3F1B82649A00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_swift_LocationTrivia_ObjectsTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_swift_LocationTrivia_ObjectsTests.framework"; sourceTree = "<group>"; };
+		DC4083C83B353B8E5814B70B /* Pods_swift_LocationTrivia_ObjectsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_LocationTrivia_ObjectsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33D08550F5481144E1DFC79 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96972B740C60039CD2E536B /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A82F9A19ED696500340B83 /* Nimble.framework in Frameworks */,
-				31A82F9919ED695900340B83 /* Quick.framework in Frameworks */,
+				B757AA2266CF0FBE356B3DAC /* Pods_swift_LocationTrivia_ObjectsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +84,8 @@
 				3150F6B719ED6643007B8692 /* swift-LocationTrivia-Objects */,
 				3150F6CD19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests */,
 				3150F6B619ED6643007B8692 /* Products */,
+				7F2F6CEEF01A7BC386A7495F /* Pods */,
+				77A7CC8B7456979CAD4EEE98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,8 +126,6 @@
 			children = (
 				31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */,
 				31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */,
-				31A82F8919ED692C00340B83 /* Nimble.xcodeproj */,
-				31A82F7919ED690F00340B83 /* Quick.xcodeproj */,
 				3150F6CE19ED6643007B8692 /* Supporting Files */,
 			);
 			path = "swift-LocationTrivia-ObjectsTests";
@@ -187,26 +139,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		31A82F7A19ED690F00340B83 /* Products */ = {
+		77A7CC8B7456979CAD4EEE98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31A82F8219ED690F00340B83 /* Quick.framework */,
-				31A82F8419ED690F00340B83 /* QuickTests.xctest */,
-				31A82F8619ED690F00340B83 /* Quick.framework */,
-				31A82F8819ED690F00340B83 /* Quick-iOSTests.xctest */,
+				BD463C3F1B82649A00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */,
+				BD463C3D1B82647C00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */,
+				BD463C391B82647800C7ADD6 /* Nimble.framework */,
+				BD463C3A1B82647800C7ADD6 /* Quick.framework */,
+				46712B771D483A09FFEDC307 /* Pods.framework */,
+				DC4083C83B353B8E5814B70B /* Pods_swift_LocationTrivia_ObjectsTests.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		31A82F8A19ED692C00340B83 /* Products */ = {
+		7F2F6CEEF01A7BC386A7495F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				31A82F9119ED692C00340B83 /* Nimble.framework */,
-				31A82F9319ED692C00340B83 /* NimbleTests.xctest */,
-				31A82F9519ED692C00340B83 /* Nimble.framework */,
-				31A82F9719ED692C00340B83 /* Nimble-OSXTests.xctest */,
+				4684AFC9BDFF65167622A6C4 /* Pods.debug.xcconfig */,
+				9741E206F66AB532D4853869 /* Pods.release.xcconfig */,
+				71A6462D922096A104E6CCD7 /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */,
+				E33D08550F5481144E1DFC79 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,14 +187,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3150F6D719ED6643007B8692 /* Build configuration list for PBXNativeTarget "swift-LocationTrivia-ObjectsTests" */;
 			buildPhases = (
+				679FAE115725764883A1A70B /* Check Pods Manifest.lock */,
 				3150F6C619ED6643007B8692 /* Sources */,
 				3150F6C719ED6643007B8692 /* Frameworks */,
 				3150F6C819ED6643007B8692 /* Resources */,
+				34CFF81F6126DCE4F87ACC0F /* Embed Pods Frameworks */,
+				096B52B5F5AFFE8D90761421 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3150F6CC19ED6643007B8692 /* PBXTargetDependency */,
+				BD463C381B82645900C7ADD6 /* PBXTargetDependency */,
 			);
 			name = "swift-LocationTrivia-ObjectsTests";
 			productName = "swift-LocationTrivia-ObjectsTests";
@@ -253,7 +210,8 @@
 		3150F6AD19ED6643007B8692 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Zachary Drossman";
 				TargetAttributes = {
 					3150F6B419ED6643007B8692 = {
@@ -276,16 +234,6 @@
 			mainGroup = 3150F6AC19ED6643007B8692;
 			productRefGroup = 3150F6B619ED6643007B8692 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 31A82F8A19ED692C00340B83 /* Products */;
-					ProjectRef = 31A82F8919ED692C00340B83 /* Nimble.xcodeproj */;
-				},
-				{
-					ProductGroup = 31A82F7A19ED690F00340B83 /* Products */;
-					ProjectRef = 31A82F7919ED690F00340B83 /* Quick.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				3150F6B419ED6643007B8692 /* swift-LocationTrivia-Objects */,
@@ -293,65 +241,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		31A82F8219ED690F00340B83 /* Quick.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Quick.framework;
-			remoteRef = 31A82F8119ED690F00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		31A82F8419ED690F00340B83 /* QuickTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = QuickTests.xctest;
-			remoteRef = 31A82F8319ED690F00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		31A82F8619ED690F00340B83 /* Quick.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Quick.framework;
-			remoteRef = 31A82F8519ED690F00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		31A82F8819ED690F00340B83 /* Quick-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Quick-iOSTests.xctest";
-			remoteRef = 31A82F8719ED690F00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		31A82F9119ED692C00340B83 /* Nimble.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Nimble.framework;
-			remoteRef = 31A82F9019ED692C00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		31A82F9319ED692C00340B83 /* NimbleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NimbleTests.xctest;
-			remoteRef = 31A82F9219ED692C00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		31A82F9519ED692C00340B83 /* Nimble.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Nimble.framework;
-			remoteRef = 31A82F9419ED692C00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		31A82F9719ED692C00340B83 /* Nimble-OSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Nimble-OSXTests.xctest";
-			remoteRef = 31A82F9619ED692C00340B83 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3150F6B319ED6643007B8692 /* Resources */ = {
@@ -373,15 +262,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		096B52B5F5AFFE8D90761421 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34CFF81F6126DCE4F87ACC0F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679FAE115725764883A1A70B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3150F6B119ED6643007B8692 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A82FBE19EDC9D700340B83 /* FISLocation.swift in Sources */,
 				3150F6BD19ED6643007B8692 /* ViewController.swift in Sources */,
 				3150F6BB19ED6643007B8692 /* AppDelegate.swift in Sources */,
-				31A82FBF19EDC9D700340B83 /* FISTrivia.swift in Sources */,
+				BD7A00B01B82600700E8C1F1 /* FISLocation.swift in Sources */,
+				BD7A00B11B82600B00E8C1F1 /* FISTrivia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,20 +326,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31AA4CB11A39FD5500D68021 /* FISLocation.swift in Sources */,
-				31A82FA019ED6DCF00340B83 /* FISTriviaSpec.swift in Sources */,
-				31A82FA419ED9CCF00340B83 /* FISLocationSpec.swift in Sources */,
-				31AA4CBA1A39FD6300D68021 /* FISTrivia.swift in Sources */,
+				BD463C411B8264A900C7ADD6 /* FISLocation.swift in Sources */,
+				BD463C421B8264A900C7ADD6 /* FISTrivia.swift in Sources */,
+				BD463C351B82634000C7ADD6 /* FISLocationSpec.swift in Sources */,
+				BD463C341B82633500C7ADD6 /* FISTriviaSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3150F6CC19ED6643007B8692 /* PBXTargetDependency */ = {
+		BD463C381B82645900C7ADD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3150F6B419ED6643007B8692 /* swift-LocationTrivia-Objects */;
-			targetProxy = 3150F6CB19ED6643007B8692 /* PBXContainerItemProxy */;
+			targetProxy = BD463C371B82645900C7ADD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -428,6 +365,7 @@
 /* Begin XCBuildConfiguration section */
 		3150F6D219ED6643007B8692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4684AFC9BDFF65167622A6C4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -446,6 +384,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -470,6 +409,7 @@
 		};
 		3150F6D319ED6643007B8692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9741E206F66AB532D4853869 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -508,8 +448,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-LocationTrivia-Objects/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -519,27 +460,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-LocationTrivia-Objects/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		3150F6D819ED6643007B8692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A6462D922096A104E6CCD7 /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "swift-LocationTrivia-ObjectsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-LocationTrivia-Objects.app/swift-LocationTrivia-Objects";
@@ -548,15 +489,14 @@
 		};
 		3150F6D919ED6643007B8692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33D08550F5481144E1DFC79 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = "swift-LocationTrivia-ObjectsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-LocationTrivia-Objects.app/swift-LocationTrivia-Objects";
 			};

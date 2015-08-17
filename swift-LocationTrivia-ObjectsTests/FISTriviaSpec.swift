@@ -14,14 +14,12 @@ class FISTriviaSpec: QuickSpec {
     override func spec() {
         
         describe("FISTrivia") {
-            var trivia : FISTrivia = FISTrivia(content: "This is the content", likes: 0)
+            let trivia : FISTrivia = FISTrivia(content: "This is the content", likes: 0)
            
             describe("properties") {
                 it("should have a content NSString property") {
 
                     trivia.content = "ASDF"
-                    var tempString : String = ""
-                    expect(trivia.content).to(beAKindOf(object_getClass(tempString)))
                     expect(trivia.content).to(equal("ASDF"))
                 }
                 
@@ -35,7 +33,7 @@ class FISTriviaSpec: QuickSpec {
             
             describe("init(content:likes:) function") {
                 
-                var initTrivia: FISTrivia = FISTrivia(content: "Joe is amazing", likes: 5)
+                let initTrivia: FISTrivia = FISTrivia(content: "Joe is amazing", likes: 5)
                 
                 it("Should initialize content correctly") {
                     expect(initTrivia.content).to(equal("Joe is amazing"))
