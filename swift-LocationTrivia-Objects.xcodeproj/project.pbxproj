@@ -12,8 +12,6 @@
 		3150F6C019ED6643007B8692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6BE19ED6643007B8692 /* Main.storyboard */; };
 		3150F6C219ED6643007B8692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C119ED6643007B8692 /* Images.xcassets */; };
 		3150F6C519ED6643007B8692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3150F6C319ED6643007B8692 /* LaunchScreen.xib */; };
-		B757AA2266CF0FBE356B3DAC /* Pods_swift_LocationTrivia_ObjectsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4083C83B353B8E5814B70B /* Pods_swift_LocationTrivia_ObjectsTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		B96972B740C60039CD2E536B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46712B771D483A09FFEDC307 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BD463C341B82633500C7ADD6 /* FISTriviaSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */; };
 		BD463C351B82634000C7ADD6 /* FISLocationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */; };
 /* End PBXBuildFile section */
@@ -40,16 +38,10 @@
 		3150F6CF19ED6643007B8692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A82F9F19ED6DCF00340B83 /* FISTriviaSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISTriviaSpec.swift; sourceTree = "<group>"; };
 		31A82FA319ED9CCF00340B83 /* FISLocationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISLocationSpec.swift; sourceTree = "<group>"; };
-		46712B771D483A09FFEDC307 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4684AFC9BDFF65167622A6C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		71A6462D922096A104E6CCD7 /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9741E206F66AB532D4853869 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		BD463C391B82647800C7ADD6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
-		BD463C3A1B82647800C7ADD6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
-		BD463C3D1B82647C00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_swift_LocationTrivia_ObjectsTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_swift_LocationTrivia_ObjectsTests.framework"; sourceTree = "<group>"; };
-		BD463C3F1B82649A00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_swift_LocationTrivia_ObjectsTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_swift_LocationTrivia_ObjectsTests.framework"; sourceTree = "<group>"; };
-		DC4083C83B353B8E5814B70B /* Pods_swift_LocationTrivia_ObjectsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_LocationTrivia_ObjectsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E33D08550F5481144E1DFC79 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FD5999172009B09F47381ED /* Pods-swift-LocationTrivia-Objects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-Objects.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-Objects/Pods-swift-LocationTrivia-Objects.debug.xcconfig"; sourceTree = "<group>"; };
+		90CA80B73EB8DF6C0D2068B3 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C53F702D6B2AE4F9A32016BC /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6A5C2D3112F04E728E00B0C /* Pods-swift-LocationTrivia-Objects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-LocationTrivia-Objects.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-LocationTrivia-Objects/Pods-swift-LocationTrivia-Objects.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96972B740C60039CD2E536B /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,21 +56,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B757AA2266CF0FBE356B3DAC /* Pods_swift_LocationTrivia_ObjectsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25DD5C8408FC303CDA15EF19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FD5999172009B09F47381ED /* Pods-swift-LocationTrivia-Objects.debug.xcconfig */,
+				E6A5C2D3112F04E728E00B0C /* Pods-swift-LocationTrivia-Objects.release.xcconfig */,
+				C53F702D6B2AE4F9A32016BC /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */,
+				90CA80B73EB8DF6C0D2068B3 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3150F6AC19ED6643007B8692 = {
 			isa = PBXGroup;
 			children = (
 				3150F6B719ED6643007B8692 /* swift-LocationTrivia-Objects */,
 				3150F6CD19ED6643007B8692 /* swift-LocationTrivia-ObjectsTests */,
 				3150F6B619ED6643007B8692 /* Products */,
-				7F2F6CEEF01A7BC386A7495F /* Pods */,
 				77A7CC8B7456979CAD4EEE98 /* Frameworks */,
+				25DD5C8408FC303CDA15EF19 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,25 +135,8 @@
 		77A7CC8B7456979CAD4EEE98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BD463C3F1B82649A00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */,
-				BD463C3D1B82647C00C7ADD6 /* Pods_swift_LocationTrivia_ObjectsTests.framework */,
-				BD463C391B82647800C7ADD6 /* Nimble.framework */,
-				BD463C3A1B82647800C7ADD6 /* Quick.framework */,
-				46712B771D483A09FFEDC307 /* Pods.framework */,
-				DC4083C83B353B8E5814B70B /* Pods_swift_LocationTrivia_ObjectsTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7F2F6CEEF01A7BC386A7495F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4684AFC9BDFF65167622A6C4 /* Pods.debug.xcconfig */,
-				9741E206F66AB532D4853869 /* Pods.release.xcconfig */,
-				71A6462D922096A104E6CCD7 /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */,
-				E33D08550F5481144E1DFC79 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3150F6D419ED6643007B8692 /* Build configuration list for PBXNativeTarget "swift-LocationTrivia-Objects" */;
 			buildPhases = (
+				8431A1C8D0DCCD8C1F7D524E /* 📦 Check Pods Manifest.lock */,
 				3150F6B119ED6643007B8692 /* Sources */,
 				3150F6B219ED6643007B8692 /* Frameworks */,
 				3150F6B319ED6643007B8692 /* Resources */,
+				AEAB58B3051D264BB623C04E /* 📦 Embed Pods Frameworks */,
+				DCB28A8F08DA4042E77420FC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3150F6D719ED6643007B8692 /* Build configuration list for PBXNativeTarget "swift-LocationTrivia-ObjectsTests" */;
 			buildPhases = (
-				679FAE115725764883A1A70B /* Check Pods Manifest.lock */,
+				445256D8FD0A09828DC44CE7 /* 📦 Check Pods Manifest.lock */,
 				3150F6C619ED6643007B8692 /* Sources */,
 				3150F6C719ED6643007B8692 /* Frameworks */,
 				3150F6C819ED6643007B8692 /* Resources */,
-				34CFF81F6126DCE4F87ACC0F /* Embed Pods Frameworks */,
-				096B52B5F5AFFE8D90761421 /* Copy Pods Resources */,
+				F856C8662B1FBD6B9F860AC3 /* 📦 Embed Pods Frameworks */,
+				ADB26F47048F7B5C916DE739 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,9 +195,11 @@
 				TargetAttributes = {
 					3150F6B419ED6643007B8692 = {
 						CreatedOnToolsVersion = 6.0.1;
+						LastSwiftMigration = 0800;
 					};
 					3150F6C919ED6643007B8692 = {
 						CreatedOnToolsVersion = 6.0.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3150F6B419ED6643007B8692;
 					};
 				};
@@ -255,14 +244,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		096B52B5F5AFFE8D90761421 /* Copy Pods Resources */ = {
+		445256D8FD0A09828DC44CE7 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8431A1C8D0DCCD8C1F7D524E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB26F47048F7B5C916DE739 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,34 +289,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		34CFF81F6126DCE4F87ACC0F /* Embed Pods Frameworks */ = {
+		AEAB58B3051D264BB623C04E /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-LocationTrivia-Objects/Pods-swift-LocationTrivia-Objects-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB28A8F08DA4042E77420FC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-LocationTrivia-Objects/Pods-swift-LocationTrivia-Objects-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F856C8662B1FBD6B9F860AC3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-LocationTrivia-ObjectsTests/Pods-swift-LocationTrivia-ObjectsTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		679FAE115725764883A1A70B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -353,7 +387,6 @@
 /* Begin XCBuildConfiguration section */
 		3150F6D219ED6643007B8692 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4684AFC9BDFF65167622A6C4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -397,7 +430,6 @@
 		};
 		3150F6D319ED6643007B8692 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9741E206F66AB532D4853869 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -433,6 +465,7 @@
 		};
 		3150F6D519ED6643007B8692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD5999172009B09F47381ED /* Pods-swift-LocationTrivia-Objects.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-LocationTrivia-Objects/Info.plist";
@@ -440,11 +473,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3150F6D619ED6643007B8692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A5C2D3112F04E728E00B0C /* Pods-swift-LocationTrivia-Objects.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-LocationTrivia-Objects/Info.plist";
@@ -452,12 +487,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		3150F6D819ED6643007B8692 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71A6462D922096A104E6CCD7 /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */;
+			baseConfigurationReference = C53F702D6B2AE4F9A32016BC /* Pods-swift-LocationTrivia-ObjectsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -471,13 +507,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-LocationTrivia-Objects.app/swift-LocationTrivia-Objects";
 			};
 			name = Debug;
 		};
 		3150F6D919ED6643007B8692 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E33D08550F5481144E1DFC79 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */;
+			baseConfigurationReference = 90CA80B73EB8DF6C0D2068B3 /* Pods-swift-LocationTrivia-ObjectsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -486,6 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-LocationTrivia-Objects.app/swift-LocationTrivia-Objects";
 			};
 			name = Release;
